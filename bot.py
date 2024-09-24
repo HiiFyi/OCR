@@ -37,8 +37,8 @@ def start(update,context):
     """Send a message when the command /start is issued."""
     global first
     first=update.message.chat.first_name
-    keybord1 = [[InlineKeyboardButton("Owner 👨‍💻", url=f"https://t.me/{OWNER}"),
-                 InlineKeyboardButton("Tutorial 📺", url="https://youtu.be/7yqjm-DCaXE")]]
+    keybord1 = [[InlineKeyboardButton("SUJAY 😎", url=f"https://t.me/{OWNER}"),
+                 InlineKeyboardButton("CHANNEL", url="https://t.me/sujay8371")]]
     reply_markup = InlineKeyboardMarkup(keybord1)
     update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to OCR Bot.\n\nJust send a clear image to me and i will recognize the text in the image and send it as a message!\n\nCheck /help for more...\n\nCreate your Own Bot by Watching Tutorial', reply_markup=reply_markup)
 
@@ -46,8 +46,8 @@ def help(update,context):
     """Send a message when the command /help is issued."""
     global first
     first=update.message.chat.first_name
-    keybord1 = [[InlineKeyboardButton("Owner 👨‍💻", url=f"https://t.me/{OWNER}"),
-                 InlineKeyboardButton("Tutorial 📺", url="https://youtu.be/7yqjm-DCaXE")]]
+    keybord1 = [[InlineKeyboardButton("SUJAY 😎", url=f"https://t.me/{OWNER}"),
+                 InlineKeyboardButton("CHANNEL", url="https://t.me/sujay8371")]]
     reply_markup = InlineKeyboardMarkup(keybord1)
     update.message.reply_text('Hi! '+str(first)+' \n\nFollow these steps...\n➥ First Send me a Clear Image to me \n➥ Select the Language to Extract Selected Language Text in Image \n➥ Extracted Text is Uploaded as Message!', reply_markup=reply_markup)
 
