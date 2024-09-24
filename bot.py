@@ -70,6 +70,7 @@ def convert_image(update,context):
                      ],
                      [
                      InlineKeyboardButton("English", callback_data='eng'),
+		     InlineKeyboardButton("Bengali", callback_data='ben'),
                      InlineKeyboardButton("Finnish", callback_data='fin'),
                      InlineKeyboardButton("French", callback_data='fre')
                      ],
